@@ -11,7 +11,8 @@
         <h3>Masuk</h3>
     </div>
 
-    <form action="">
+    <form action="/login" method="POST">
+        @csrf
         <label for="email">Email</label>
         <input type="text" name="email" id="email">
 
@@ -19,7 +20,7 @@
         <input type="password" name="password" id="password">
         
         <div class="registerText">
-            <p>Tidak memiliki akun ? <a href="registerPage.html">Registrasi</a></p>
+            <p>Tidak memiliki akun ? <a href="/register">Registrasi</a></p>
         </div>
         <button type="submit">Masuk</button>
     </form>
