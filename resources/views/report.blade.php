@@ -159,13 +159,6 @@
                 <p style="color: red">{{ $message = "Alasan Melapor Perlu Diisi" }}</p>
             @enderror
 
-            <label for="urgensi">Tingkat Urgensi</label>
-            <select name="urgensi">
-                @for($i = 1; $i <= 10; $i++)
-                    <option value="{{ $i }}">{{ $i }}</option>
-                @endfor
-            </select>
-
             <label for="bukti">Bukti Masalah</label>
             <input type="file" name="bukti">
             @error('bukti')

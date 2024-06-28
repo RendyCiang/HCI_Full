@@ -8,26 +8,18 @@
 </head>
 <body>
     <div class="landingpage">
-        <div class="left-side">
-            <video src="/asset/video/video_1.mp4" autoplay muted loop></video>
-            <h2>KAMI</h2>
-            <br>
-            <h2>MENDENGAR</h2>
-            <br>
-            <h2>MU</h2>
-            <p><span id="phrases"></span></p>
-        
-            <div class="container">
-                <h3></h3><span></span></h3>
+        <video src="/asset/video/video_1.mp4" autoplay muted loop></video>
+        <div class="content">
+            <div id="phrases">
+                <h2>KAMI</h2>
+                <br>
+                <h2>MENDENGAR</h2>
+                <br>
+                <h2>MU</h2>
             </div>
-        </div>
-
-        <div class="right-side">
-            <h3>Mulai Untuk Melapor ?</h3>
+            
             <div class="nav_button">
-                <a href="/home">Beranda</a>
-                <a href="/login">Masuk</a>
-                <a href="/about">Tentang Kami</a>
+                <a href="/home">Mulai Untuk Melapor?</a>
             </div>
         </div>
     </div>

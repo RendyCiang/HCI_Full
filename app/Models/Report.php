@@ -18,7 +18,6 @@ class Report extends Model
         'kelurahan',
         'alamat',
         'pengaduan',
-        'urgensi',
         'bukti',
     ];
 }

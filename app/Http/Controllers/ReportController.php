@@ -38,7 +38,6 @@ class ReportController extends Controller
             'kelurahan' => ['required', 'not_in:Pilih'],
             'alamat' => ['required', 'min:10'],
             'pengaduan' => ['required', 'min:10'],
-            'urgensi' => ['required'],
             'bukti' => ['required', 'image'],
             
         ]);
@@ -59,7 +58,6 @@ class ReportController extends Controller
             'kelurahan' => $request->kelurahan,
             'alamat' => $request->alamat,
             'pengaduan' => $request->pengaduan,
-            'urgensi' => $request->urgensi,
             'bukti' => $filename,
         ]);
 

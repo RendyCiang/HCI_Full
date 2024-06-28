@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string('kelurahan');
             $table->string('alamat');
             $table->string('pengaduan');
-            $table->string('urgensi');
             $table->string('bukti');
             
             $table->timestamps();
