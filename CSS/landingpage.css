@@ -1,88 +1,66 @@
-*{
-    top: 0; 
-    margin: 0;
-}
 body {
-    font-family : 'open sans', sans-serif;
+    font-family: 'open sans', sans-serif;
+    margin: 0;
 }
 
 .landingpage {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-}
-.left-side {
-    width: 60%;
-    height: 100%;
     position: relative;
 }
 
-.left-side h2{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    font-size: 5rem;
-    gap: 1rem;
-    z-index: 1;
-    top: 30%;
-    color: #E0F7FA;
-}
-.left-side video {
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
+    z-index: -1;
+}
+
+.content {
+    text-align: center;
+    z-index: 1;
+    color: #212427; 
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 #phrases {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 20rem;
-    color: rgb(52, 48, 48);
-    font-size: 24px;
-    font-weight: 700;   
-    z-index: 1;
+    margin-bottom: 2rem; 
 }
 
-
-.right-side {
-    width: 40%;
-    background-color: #E0F7FA;
-    height: 100%;
+#phrases h2 {
+    font-size: 5rem;
+    margin: 0;
 }
 
-.right-side h3{
-    display: flex;  
-    justify-content: center;
+h3 {
     font-size: 2rem;
-    margin-top: 16rem;
+    margin: 2rem 0; 
     color: #212427;
-    text-shadow: 4px 10px 10px #212427; 
+    text-shadow: 4px 10px 10px #212427;
 }
 
-.nav_button{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: #212427;
-    gap: 1.5rem;
+.nav_button {
+    margin-top: 20rem; 
 }
 
-.nav_button a:hover{
-    color: #E0F7FA;
-    background-color: #212427;
-
-}
-.nav_button a{
+.nav_button a {
     text-decoration: none;
     color: #343030;
     font-weight: 700;
-    border: 1px solid #212427;
-    padding: 10px;
-    border-radius: 20%;
-    
+    border: 1px solid #E0F7FA;
+    background-color: #0071C9;
+    padding: 20px 20px;
+    border-radius: 20px; 
+    margin: 0 10px; 
+}
+
+.nav_button a:hover {
+    color: #E0F7FA;
+    background-color: #212427;
 }
